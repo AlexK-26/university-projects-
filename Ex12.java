@@ -1,16 +1,16 @@
 package homeEx1By10page;
-import java.util.*;
+import java.util.Scanner;
 public class Ex12 {
 
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
-		System.out.print("Введи трехзначное число x=");
+		System.out.print("Г‚ГўГҐГ¤ГЁ ГІГ°ГҐГµГ§Г­Г Г·Г­Г®ГҐ Г·ГЁГ±Г«Г® x=");
 		int x=sc.nextInt();
 		int x0=x%10;
 		int x1=(x/10)%10;
 		int x2=x/100;
 		int unox=x0*100+x1*10+x2;
-		System.out.print("Число перевёртышь числа "+x+" это: "+unox);
+		System.out.print("Г—ГЁГ±Г«Г® ГЇГҐГ°ГҐГўВёГ°ГІГ»ГёГј Г·ГЁГ±Г«Г  "+x+" ГЅГІГ®: "+unox);
 	}
 
 }
